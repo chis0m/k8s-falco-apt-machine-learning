@@ -1,0 +1,4 @@
+model,strategy,mean_pr_auc,std_pr_auc
+xgboost,class_weight,0.9909623180397679,0.007006095581422085
+random_forest,class_weight,0.9904349677197054,0.0075209234687705915
+logistic_regression,class_weight,0.9800540795266975,0.012537912396198897
