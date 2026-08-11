@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Editor folders
+.vscode/
+.idea/
+
+# Test notebooks
+test.ipynb
+WARP_Falco_Alerts_Labeled_Dataset
+WARP_Falco_Alerts_Labeled_Dataset.zip
+falco-alert-labeled-dataset

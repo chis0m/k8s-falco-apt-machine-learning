@@ -1,0 +1,52 @@
+Feature,Importance
+priority_Notice,0.5485190378731895
+has_file_event,0.29522669845179367
+rule_Write below root,0.2873819521911921
+has_process_detail,0.09272448009055366
+cmdline_length,0.06302527260599544
+rule_Launch Privileged Container,0.014281061791928673
+rule_Launch Sensitive Mount Container,0.014158240245723114
+rule_Contact K8S API Server From Container,0.004174000354420953
+user_name_root,0.003049499461633948
+priority_Warning,0.0014566925055136681
+rule_Mkdir binary dirs,0.0011889334443141609
+rule_Modify binary dirs,0.0011235713757200617
+hour,0.00020292321275305336
+priority_Debug,0.0001286119284884313
+rule_Delete or rename shell history,0.0001218567001584625
+user_name_unknown,7.367045631291313e-05
+mitre_tactic_mitre_discovery,6.2973664987697745e-06
+user_name_bin,2.700757806822773e-06
+mitre_tactic_mitre_defense_evasion,1.2805770241985925e-06
+priority_Error,1.0932732846025139e-06
+rule_User mgmt binaries,1.089532531695081e-07
+user_name_www-data,0.0
+mitre_tactic_none,0.0
+mitre_tactic_mitre_remote_access_tools,0.0
+mitre_tactic_mitre_privilege_escalation,0.0
+mitre_tactic_mitre_exfiltration,0.0
+mitre_tactic_mitre_lateral_movement,0.0
+image_repo_nginx,0.0
+suspicious_cmd_flag,0.0
+image_repo_falcosecurity/falco,0.0
+mitre_tactic_mitre_credential_access,0.0
+mitre_tactic_mitre_execution,0.0
+rule_Non sudo setuid,0.0
+rule_Create files below dev,0.0
+rule_Write below monitored dir,0.0
+rule_Write below etc,0.0
+rule_Write below binary dir,0.0
+rule_Terminal shell in container,0.0
+rule_System user interactive,0.0
+rule_System procs network activity,0.0
+rule_Run shell untrusted,0.0
+rule_Write below rpm database,0.0
+rule_DB program spawned process,0.0
+rule_Read sensitive file untrusted,0.0
+rule_Launch Package Management Process in Container,0.0
+image_repo_busybox,-3.3306690738754695e-17
+image_repo_unknown,-4.4408920985006264e-17
+rule_Read sensitive file trusted after startup,-5.551115123125783e-17
+priority_Critical,-5.551115123125783e-17
+image_repo_falcosecurity/event-generator,-9.074326884074835e-05
+mitre_tactic_mitre_persistence,-9.685630389575373e-05
